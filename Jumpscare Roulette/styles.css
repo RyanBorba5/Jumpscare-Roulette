@@ -1,0 +1,220 @@
+body {
+  background-color: rgb(24, 20, 22);
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.navbar {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: rgb(24, 20, 22);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navprimary {
+  margin-top: 40px;
+  max-height: 100px;
+}
+
+.navsecondary {
+  max-height: 80px;
+  margin: 0px;
+  text-align: center;
+}
+
+.navprimaryitem {
+  margin: 0px;
+  font-size: 5rem;
+  color: white;
+}
+
+.navsecondaryitem {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 3rem;
+  color: white;
+}
+
+.navsecondaryitem:hover {
+  color: rgb(128, 128, 128);
+}
+
+#active {
+  color: rgb(128, 128, 128);
+}
+
+.creepster {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.information {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: block;
+}
+
+.information .infoitem {
+  color: white;
+  font-size: 20px;
+}
+
+.information .infoitemheader {
+    color: white;
+    font-size: 25px;
+  }
+
+.github {
+  color: rgb(154, 154, 228);
+}
+
+.github:hover {
+  cursor: pointer;
+}
+
+.gifscontainerhome {
+    margin-top: 80px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+#gifhome {
+    box-shadow: 0px 0px 15px red;
+    border-radius: 10px;
+}
+
+/*
+GAME RELATED THINGS BELOW
+*/
+
+.bidlabel {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.playbutton {
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#userinput {
+
+}
+
+.cardlayout {
+    margin: 0 auto;
+    width: 510px;
+    display: grid;
+    grid-template-columns: repeat(3, 0.28fr);
+    gap: 25px 25px;
+}
+
+.carddiv {
+    text-align: center;
+    max-width: 290px;
+    transition: box-shadow 0.5s ease, transform 2.0s ease;
+    border-radius: 10px;
+    height: 211px;
+}
+
+.carddiv img {
+    border-radius: 10px;
+}
+
+.carddiv:hover {
+    box-shadow: 0px 0px 12px crimson;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.bidsandboard {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#foggybox {
+  background-color: black;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 67%;
+  left: 50.35%;
+  box-shadow: 0px 0px 10px 15px black;
+  display: none;
+  transform: scale(0,0);
+}
+
+#scareimg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 2;
+  top: 63%;
+  left: 50.35%;
+  display: none;
+}
+
+.coincontainer {
+
+}
+
+#coinimg {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 2;
+  top: 63%;
+  left: 50.35%;
+  display: none;
+}
+
+#card1 {
+  display: block;
+}
+
+#card2 {
+  display: block;
+}
+
+#card3 {
+  display: block;
+}
+
+#card4 {
+  display: block;
+}
+
+#card5 {
+  display: block;
+}
+
+#card6 {
+  display: block;
+}
+
+#card7 {
+  display: block;
+}
+
+#card8 {
+  display: block;
+}
+
+#card9 {
+  display: block;
+}
